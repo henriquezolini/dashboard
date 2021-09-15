@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #363740;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.box-login {
+  width: 380px;
+  background-color: white;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -190px;
+  margin-top: -265px;
+  -webkit-box-shadow: 0px 0px 11px -6px #000000;
+  box-shadow: 0px 0px 11px -6px #000000;
+  padding: 40px;
+}
+
+.box-login .logo {
+  text-align: center;
+}
+
+.box-login .logo img {
+  width: 48px;
+  height: 48px;
+}
+
+.box-login .logo-title {
+  color: #a4a6b3;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.box-login .login-title {
+  color: #252733;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.box-login .login-subtitle {
+  color: #9fa2b4;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.box-login .form-login {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.box-login .form-login label {
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  color: #9fa2b4;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.box-login .form-login label small {
+  float: right;
+  text-transform: capitalize;
+}
+
+.box-login .form-login input {
+  border-radius: 8px;
+  background-color: #fcfdfe;
+  border: 1px solid #f0f1f7;
+  height: 42px;
+  width: calc(100% - 30px);
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #4b506d;
+  margin-bottom: 20px;
+}
+
+.box-login .form-login input::placeholder {
+  color: #4b506d;
+}
+
+.box-login .form-login button {
+  background-color: #3751ff;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+}
+
+.box-login .login-new {
+  color: #9fa2b4;
+  margin-top: 30px;
+  text-align: center;
+}
