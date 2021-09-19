@@ -116,3 +116,44 @@ body {
   margin-top: 30px;
   text-align: center;
 }
+
+.overview {
+  background-color: white;
+}
+
+a {
+  color: #a4a6b3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.dashboard {
+  background-color: #363740;
+  width: 255px;
+  height: 100%;
+}
+.tittle {
+  color: #a4a6b3;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 80px;
+}
+.menu-tittle {
+  color: #a4a6b3;
+  text-align: center;
+  line-height: 40px;
+}
+.menu-tittle:hover {
+  background-color: #3c3d47;
+}
+.menu-footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.line-footer {
+  background-color: #7a7b86;
+  width: 255px;
+  height: 1px;
+}
