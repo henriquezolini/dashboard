@@ -118,13 +118,12 @@ body {
 }
 
 .overview {
-  background-color: white;
+  background-color: #f7f8fc;
 }
 
 a {
   color: #a4a6b3;
 }
-
 a:hover {
   text-decoration: underline;
 }
@@ -133,21 +132,41 @@ a:hover {
   width: 255px;
   height: 100%;
 }
-.tittle {
+.dashboard .logo {
   color: #a4a6b3;
   font-size: 20px;
   text-align: center;
-  margin-bottom: 40px;
-  line-height: 80px;
+  margin-bottom: 30px;
+  display: flex;
 }
-.menu-tittle {
+.dashboard .logo img {
+  height: 32px;
+  margin: 24px 30px;
+  margin-right: 10px;
+}
+.dashboard .logo h1 {
+  font-size: 20px;
+  margin: 28px 0px;
+}
+.dashboard ul.menu li {
   color: #a4a6b3;
-  text-align: center;
-  line-height: 40px;
+  padding: 10px 30px;
+  font-size: 16px;
 }
-.menu-tittle:hover {
+.dashboard ul.menu li a {
+  text-decoration: none;
+}
+.dashboard ul.menu li:hover {
   background-color: #3c3d47;
+  cursor: pointer;
 }
+.dashboard ul.menu li.divider {
+  padding: 0;
+  height: 1px;
+  margin: 10px 0px;
+  background-color: #ffffff1a;
+}
+
 .menu-footer {
   margin-top: 20px;
   margin-bottom: 20px;
