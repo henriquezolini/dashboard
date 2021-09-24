@@ -119,6 +119,7 @@ body {
 
 .overview {
   background-color: #f7f8fc;
+  display: flex;
 }
 
 a {
@@ -127,40 +128,56 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.dashboard {
+.sidebar {
   background-color: #363740;
   width: 255px;
   height: 100%;
 }
-.dashboard .logo {
+.sidebar .logo {
   color: #a4a6b3;
   font-size: 20px;
   text-align: center;
   margin-bottom: 30px;
   display: flex;
 }
-.dashboard .logo img {
+.sidebar .logo img {
   height: 32px;
   margin: 24px 30px;
   margin-right: 10px;
 }
-.dashboard .logo h1 {
+.sidebar .logo h1 {
   font-size: 20px;
   margin: 28px 0px;
 }
-.dashboard ul.menu li {
+.sidebar ul.menu li {
   color: #a4a6b3;
-  padding: 10px 30px;
   font-size: 16px;
 }
-.dashboard ul.menu li a {
-  text-decoration: none;
+.sidebar ul.menu .icone img {
+  height: 13px;
 }
-.dashboard ul.menu li:hover {
+.sidebar ul.menu .icone {
+  width: 25px;
+  text-align: center;
+  margin-right: 10px;
+}
+.sidebar ul.menu li a {
+  text-decoration: none;
+  display: flex;
+  padding: 10px 30px;
+}
+.sidebar ul.menu li a.active {
+  background-color: #3c3d47;
+  color: #f7f8fc;
+  border-left: 3px #f7f8fc solid;
+}
+.sidebar ul.menu li:hover,
+.sidebar ul.menu li a:hover {
   background-color: #3c3d47;
   cursor: pointer;
+  color: #f7f8fc;
 }
-.dashboard ul.menu li.divider {
+.sidebar ul.menu li.divider {
   padding: 0;
   height: 1px;
   margin: 10px 0px;
@@ -175,4 +192,9 @@ a:hover {
   background-color: #7a7b86;
   width: 255px;
   height: 1px;
+}
+.main {
+  flex: 1;
+  height: 100px;
+  background-color: red;
 }
